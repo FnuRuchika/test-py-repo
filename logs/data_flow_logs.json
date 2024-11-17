@@ -1,0 +1,67 @@
+{"timestamp": "2024-11-16 15:33:20", "action": "Data Creation", "details": "Fetched stock data for IBM with interval 5min"}
+{"timestamp": "2024-11-16 15:33:20", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 15:33:24", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 15:33:34", "action": "Data Creation", "details": "Fetched stock data for IBM with interval 15min"}
+{"timestamp": "2024-11-16 15:33:34", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 15:33:34", "action": "Data Usage", "details": "Predicted risk score: 0.14079339049080133"}
+{"timestamp": "2024-11-16 15:33:49", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-16 15:33:49", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 15:33:49", "action": "Data Usage", "details": "Predicted risk score: 0.14079339049080133"}
+{"timestamp": "2024-11-16 15:33:53", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-16 15:33:53", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 15:33:53", "action": "Data Usage", "details": "Predicted risk score: 0.14079339049080133"}
+{"timestamp": "2024-11-16 15:34:02", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 15:39:56", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 15:40:00", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 16:15:42", "action": "Data Creation", "details": "Fetched stock data for IBM with interval 5min"}
+{"timestamp": "2024-11-16 16:15:42", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 16:15:48", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 16:15:50", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 16:26:23", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 16:26:26", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 16:26:30", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 16:26:32", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:09:36", "action": "Data Creation", "details": "Fetched stock data for AMZN with interval 5min"}
+{"timestamp": "2024-11-16 17:09:36", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:09:39", "action": "Data Creation", "details": "Fetched stock data for TSLA with interval 5min"}
+{"timestamp": "2024-11-16 17:09:39", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:09:42", "action": "Data Creation", "details": "Fetched stock data for TSLA with interval 30min"}
+{"timestamp": "2024-11-16 17:09:42", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:09:42", "action": "Data Usage", "details": "Predicted risk score: 0.29566153467928863"}
+{"timestamp": "2024-11-16 17:09:54", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:10:04", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:10:06", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:10:07", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:10:08", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:10:16", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 17:10:39", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 18:50:24", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 18:56:49", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 18:56:52", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 18:56:53", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 18:57:03", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 18:57:23", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 18:58:18", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 18:58:22", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 19:01:02", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 19:01:09", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 19:01:29", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 19:03:55", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 19:05:13", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 19:06:46", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 19:07:02", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage"}
+{"timestamp": "2024-11-16 19:13:15", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage"}
+{"timestamp": "2024-11-16 19:16:52", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage."}
+{"timestamp": "2024-11-16 19:19:59", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage"}
+{"timestamp": "2024-11-16 19:20:02", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage"}
+{"timestamp": "2024-11-16 19:28:00", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage"}
+{"timestamp": "2024-11-16 20:18:08", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage"}
+{"timestamp": "2024-11-16 20:19:46", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage"}
+{"timestamp": "2024-11-16 20:24:21", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage"}
+{"timestamp": "2024-11-16 20:33:36", "action": "Data Processing Error", "details": "Data processing error: Invalid response structure from Alpha Vantage. Check your API key or rate limits."}
+{"timestamp": "2024-11-16 20:46:05", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-16 20:46:05", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-16 20:46:06", "action": "Data Usage", "details": "Predicted risk score: 3.5758954575799726"}
+{"timestamp": "2024-11-16 20:46:12", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-16 20:46:12", "action": "Data Access", "details": "Calculated moving average and volatility for window 15 days"}
+{"timestamp": "2024-11-16 20:46:12", "action": "Data Usage", "details": "Predicted risk score: 3.5758954575799726"}

@@ -1,0 +1,16 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Android-related files
+.android/
+*.avd/
+*.gradle/
+*.idea/
+
+# Ignore other unnecessary directories and files
+.vscode/
+.venv/
+__pycache__/
+.env/
+*.pkl
+*.ipynb_checkpoints
