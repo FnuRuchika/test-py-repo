@@ -65,3 +65,135 @@
 {"timestamp": "2024-11-16 20:46:12", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
 {"timestamp": "2024-11-16 20:46:12", "action": "Data Access", "details": "Calculated moving average and volatility for window 15 days"}
 {"timestamp": "2024-11-16 20:46:12", "action": "Data Usage", "details": "Predicted risk score: 3.5758954575799726"}
+{"timestamp": "2024-11-17 10:27:27", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:31:59", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:36:24", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:39:22", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:42:12", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:42:19", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:42:21", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:42:25", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:42:31", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:42:34", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:42:38", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:42:47", "action": "Data Access", "details": "Calculated moving average and volatility for window 8 days"}
+{"timestamp": "2024-11-17 10:42:48", "action": "Data Access", "details": "Calculated moving average and volatility for window 10 days"}
+{"timestamp": "2024-11-17 10:42:52", "action": "Data Access", "details": "Calculated moving average and volatility for window 14 days"}
+{"timestamp": "2024-11-17 10:42:54", "action": "Data Access", "details": "Calculated moving average and volatility for window 24 days"}
+{"timestamp": "2024-11-17 10:42:56", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:42:58", "action": "Data Access", "details": "Calculated moving average and volatility for window 4 days"}
+{"timestamp": "2024-11-17 10:42:59", "action": "Data Access", "details": "Calculated moving average and volatility for window 3 days"}
+{"timestamp": "2024-11-17 10:43:03", "action": "Data Access", "details": "Calculated moving average and volatility for window 3 days"}
+{"timestamp": "2024-11-17 10:43:13", "action": "Data Access", "details": "Calculated moving average and volatility for window 3 days"}
+{"timestamp": "2024-11-17 10:43:16", "action": "Data Access", "details": "Calculated moving average and volatility for window 3 days"}
+{"timestamp": "2024-11-17 10:43:37", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 10:43:37", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:44:45", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:45:10", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:46:45", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:46:55", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:49:05", "action": "Data Access", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:50:31", "action": "Fetch Data", "details": "Fetched stock data for symbol IBM with interval 5min"}
+{"timestamp": "2024-11-17 10:50:31", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:50:33", "action": "Fetch Data", "details": "Fetched stock data for symbol IBM with interval 5min"}
+{"timestamp": "2024-11-17 10:50:33", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:50:35", "action": "Fetch Data", "details": "Fetched stock data for symbol IBM with interval 5min"}
+{"timestamp": "2024-11-17 10:50:35", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 10:50:44", "action": "Fetch Data", "details": "Fetched stock data for symbol IBM with interval 5min"}
+{"timestamp": "2024-11-17 10:50:44", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:03:07", "action": "Fetch Data", "details": "Fetched stock data for symbol IBM with interval 5min"}
+{"timestamp": "2024-11-17 11:03:07", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:03:14", "action": "Fetch Data", "details": "Fetched stock data for symbol GOOGL with interval 5min"}
+{"timestamp": "2024-11-17 11:03:14", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:03:17", "action": "Fetch Data", "details": "Fetched stock data for symbol AMZN with interval 5min"}
+{"timestamp": "2024-11-17 11:03:17", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:03:19", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 5min"}
+{"timestamp": "2024-11-17 11:03:19", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:03:21", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 30min"}
+{"timestamp": "2024-11-17 11:03:21", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:03:25", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:03:25", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:03:34", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:03:34", "action": "Data Processing", "details": "Calculated moving average and volatility for window 6 days"}
+{"timestamp": "2024-11-17 11:03:36", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:03:36", "action": "Data Processing", "details": "Calculated moving average and volatility for window 8 days"}
+{"timestamp": "2024-11-17 11:03:37", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:03:37", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:03:39", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:03:39", "action": "Data Processing", "details": "Calculated moving average and volatility for window 14 days"}
+{"timestamp": "2024-11-17 11:03:40", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:03:40", "action": "Data Processing", "details": "Calculated moving average and volatility for window 20 days"}
+{"timestamp": "2024-11-17 11:03:43", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:03:43", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:03:56", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:03:56", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:04:10", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:04:10", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:04:14", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:04:14", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:04:17", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:04:17", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:04:20", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:04:20", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:04:23", "action": "Fetch Data", "details": "Fetched stock data for symbol META with interval 60min"}
+{"timestamp": "2024-11-17 11:04:23", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:04:35", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:04:35", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:04:41", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:04:41", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:04:49", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:04:49", "action": "Data Processing", "details": "Calculated moving average and volatility for window 20 days"}
+{"timestamp": "2024-11-17 11:05:07", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:05:07", "action": "Data Processing", "details": "Calculated moving average and volatility for window 20 days"}
+{"timestamp": "2024-11-17 11:05:10", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:05:10", "action": "Data Processing", "details": "Calculated moving average and volatility for window 20 days"}
+{"timestamp": "2024-11-17 11:05:13", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:05:13", "action": "Data Processing", "details": "Calculated moving average and volatility for window 20 days"}
+{"timestamp": "2024-11-17 11:05:15", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:05:15", "action": "Data Processing", "details": "Calculated moving average and volatility for window 20 days"}
+{"timestamp": "2024-11-17 11:06:31", "action": "Fetch Data", "details": "Fetched stock data for symbol IBM with interval 5min"}
+{"timestamp": "2024-11-17 11:06:31", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:06:36", "action": "Fetch Data", "details": "Fetched stock data for symbol IBM with interval 15min"}
+{"timestamp": "2024-11-17 11:06:36", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:06:38", "action": "Fetch Data", "details": "Fetched stock data for symbol IBM with interval 60min"}
+{"timestamp": "2024-11-17 11:06:38", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:06:41", "action": "Fetch Data", "details": "Fetched stock data for symbol GOOGL with interval 60min"}
+{"timestamp": "2024-11-17 11:06:41", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:06:49", "action": "Fetch Data", "details": "Fetched stock data for symbol GOOGL with interval 60min"}
+{"timestamp": "2024-11-17 11:06:49", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:06:52", "action": "Fetch Data", "details": "Fetched stock data for symbol GOOGL with interval 60min"}
+{"timestamp": "2024-11-17 11:06:52", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:06:56", "action": "Fetch Data", "details": "Fetched stock data for symbol GOOGL with interval 60min"}
+{"timestamp": "2024-11-17 11:06:56", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:06:58", "action": "Fetch Data", "details": "Fetched stock data for symbol GOOGL with interval 60min"}
+{"timestamp": "2024-11-17 11:06:58", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:07:00", "action": "Fetch Data", "details": "Fetched stock data for symbol GOOGL with interval 60min"}
+{"timestamp": "2024-11-17 11:07:00", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:07:02", "action": "Fetch Data", "details": "Fetched stock data for symbol GOOGL with interval 60min"}
+{"timestamp": "2024-11-17 11:07:02", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:07:17", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:17", "action": "Data Processing", "details": "Calculated moving average and volatility for window 5 days"}
+{"timestamp": "2024-11-17 11:07:20", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:20", "action": "Data Processing", "details": "Calculated moving average and volatility for window 11 days"}
+{"timestamp": "2024-11-17 11:07:24", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:24", "action": "Data Processing", "details": "Calculated moving average and volatility for window 6 days"}
+{"timestamp": "2024-11-17 11:07:25", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:25", "action": "Data Processing", "details": "Calculated moving average and volatility for window 14 days"}
+{"timestamp": "2024-11-17 11:07:26", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:26", "action": "Data Processing", "details": "Calculated moving average and volatility for window 18 days"}
+{"timestamp": "2024-11-17 11:07:29", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:29", "action": "Data Processing", "details": "Calculated moving average and volatility for window 18 days"}
+{"timestamp": "2024-11-17 11:07:33", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:33", "action": "Data Processing", "details": "Calculated moving average and volatility for window 18 days"}
+{"timestamp": "2024-11-17 11:07:41", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:41", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:07:46", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:46", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:07:48", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:48", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:07:54", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:54", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:07:57", "action": "Data Upload", "details": "User uploaded a custom dataset: sample_stock_data.csv"}
+{"timestamp": "2024-11-17 11:07:57", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}
+{"timestamp": "2024-11-17 11:13:36", "action": "Fetch Data", "details": "Fetched stock data for symbol IBM with interval 5min"}
+{"timestamp": "2024-11-17 11:13:36", "action": "Data Processing", "details": "Calculated moving average and volatility for window 9 days"}

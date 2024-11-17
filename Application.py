@@ -4,16 +4,14 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import joblib
 import requests
-from sklearn.metrics import mean_squared_error
 from datetime import datetime
 import json
 import os
 
-# Initialize logging directory
+# Initializing logging directory
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
-# Helper function to log actions
 def log_action(action, details):
     log_entry = {
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -31,18 +29,15 @@ def load_stock_data(symbol, interval):
     
     try:
         response = requests.get(alpha_url)
-        response.raise_for_status()  # Raise HTTPError for bad responses
+        response.raise_for_status()  
         data = response.json()
 
-        # Debugging: Print the raw API response
-        st.write("API Response:", data)
-
-        # Check if the response contains the expected data
+      #checking for any response
         time_series_key = f"Time Series ({interval})"
         if time_series_key not in data:
             raise ValueError("Invalid response structure or rate limit exceeded")
 
-        # Parse the data into a DataFrame
+        # Parsing the data into a DataFrame
         time_series_data = data[time_series_key]
         df = pd.DataFrame.from_dict(time_series_data, orient="index")
         df.index = pd.to_datetime(df.index)
@@ -61,27 +56,28 @@ def load_stock_data(symbol, interval):
         st.error(f"Data processing error: {ve}")
         return pd.DataFrame()
 
-# Title and description
+
 st.title("Riskalytics: Risk Scoring Meets Analytics")
 st.write("Analyze stock risks with enhanced data observability and business insights.")
 
-# User option to choose data source
+
 data_source = st.radio(
     "Select Data Source",
     options=["Fetch Stock Data", "Upload Your Data"],
     index=0,
 )
 
-# Initialize stock_df as an empty DataFrame
+
 stock_df = pd.DataFrame()
 
-# Fetch stock data if the user selects "Fetch Stock Data"
+
 if data_source == "Fetch Stock Data":
     stock_symbols = ["IBM", "AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "META", "NFLX", "NVDA", "AMD"]
     symbol = st.selectbox("Select Stock Symbol", options=stock_symbols, index=0)
     interval = st.selectbox("Select Interval", options=["1min", "5min", "15min", "30min", "60min"], index=1)
 
     stock_df = load_stock_data(symbol, interval)
+    log_action("Fetch Data", f"Fetched stock data for symbol {symbol} with interval {interval}")
 
 # Allow user to upload their own data if "Upload Your Data" is selected
 elif data_source == "Upload Your Data":
@@ -102,31 +98,33 @@ elif data_source == "Upload Your Data":
                 stock_df.set_index("date", inplace=True)
 
 if not stock_df.empty:
-    # Display uploaded or fetched stock data
-    st.write("### Stock Data", stock_df.head())
+   
+    st.write("### Stock Data")
+    st.dataframe(stock_df)
 
     # Moving Average Window Slider
     moving_avg_window = st.slider("Select Moving Average Window (days)", min_value=1, max_value=30, value=5)
 
-    # Calculate Moving Average and Volatility
+    # Calculating Moving Average and Volatility
     stock_df["4. close"] = pd.to_numeric(stock_df["4. close"], errors="coerce")
     stock_df["moving_avg"] = stock_df["4. close"].rolling(window=moving_avg_window).mean()
     stock_df["volatility"] = stock_df["4. close"].rolling(window=moving_avg_window).std()
 
-    # Log data access
-    log_action("Data Access", f"Calculated moving average and volatility for window {moving_avg_window} days")
+    # Log data accessing
+    log_action("Data Processing", f"Calculated moving average and volatility for window {moving_avg_window} days")
 
-    # Filter by Date Range
+    # Filtering by Date Range
     st.write("### Filter by Date Range")
     start_date = st.date_input("Start Date", value=stock_df.index.min().date())
     end_date = st.date_input("End Date", value=stock_df.index.max().date())
     stock_df = stock_df[(stock_df.index >= pd.to_datetime(start_date)) & (stock_df.index <= pd.to_datetime(end_date))]
 
-    # Validate filtered data
+    # Validating filtered data
     if not stock_df.empty:
-        st.write("### Filtered Stock Data", stock_df.head())
+        st.write("### Filtered Stock Data")
+        st.dataframe(stock_df)
 
-        # Plot Stock Price and Moving Average
+        # Plotting Stock Price and Moving Average
         st.write("### Stock Price and Moving Average")
         fig, ax = plt.subplots()
         ax.plot(stock_df.index, stock_df["4. close"], label="Closing Price", linewidth=2)
@@ -138,7 +136,7 @@ if not stock_df.empty:
         plt.legend()
         st.pyplot(fig)
 
-        # Plot Volatility
+        # Plotting for the Volatility
         st.write("### Volatility Over Time")
         fig, ax = plt.subplots()
         ax.plot(stock_df.index, stock_df["volatility"], label="Volatility", color="orange", linewidth=2)
@@ -149,29 +147,10 @@ if not stock_df.empty:
         plt.legend()
         st.pyplot(fig)
 
-        # Load Model and Predict Risk Score
-        try:
-            model = joblib.load("model.pkl")
-            scaler = joblib.load("scaler.pkl")  # Load the scaler for normalization
-            X = stock_df[["4. close", "moving_avg"]].dropna()
-            X_scaled = scaler.transform(X)  # Scale input features
-
-            if not X.empty:
-                risk_score = model.predict(X_scaled)[-1]  # Predict using the last row
-                st.write(f"Predicted Risk Score: {risk_score}")
-                log_action("Data Usage", f"Predicted risk score: {risk_score}")
-            else:
-                st.warning("Not enough data for prediction with the selected filters.")
-        except FileNotFoundError as e:
-            st.error(f"Model or scaler file not found: {e}")
-
-    else:
-        st.warning("No data available after applying filters. Please adjust your filters.")
-
 else:
     st.warning("Please upload or fetch data to proceed.")
 
-# Display Observability Dashboard
+# Observability Dashboard
 if st.checkbox("Show Observability Dashboard"):
     st.write("### Observability Dashboard")
     try:
@@ -179,11 +158,11 @@ if st.checkbox("Show Observability Dashboard"):
         with open(os.path.join(LOG_DIR, "data_flow_logs.json"), "r") as file:
             logs = [json.loads(line) for line in file]
         
-        # Convert logs to a DataFrame
+        # Converting logs to a DataFrame
         logs_df = pd.DataFrame(logs)
         st.write("### Full Logs", logs_df)
 
-        # Add filtering functionality
+        # Adding filtering functionality
         if st.checkbox("Filter Logs by Action"):
             action_filter = st.selectbox("Select Action", options=logs_df["action"].unique())
             filtered_logs = logs_df[logs_df["action"] == action_filter]
